@@ -1,14 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-  }
+    background: linear-gradient(blue,black);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+     align-items: center;
+}
   
 .navbar {
     margin-bottom: 20px;
   }
- 
+  .main-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  section {
+    padding: 50px 0;
+  }
+  .card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
 footer {
     background-color: #f8f9fa;
     color: blue;
     padding: 20px 0;
     text-align: center;
   }
+
