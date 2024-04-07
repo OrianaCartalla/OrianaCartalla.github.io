@@ -1,0 +1,17 @@
+.sticker-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sticker {
+    text-align: center;
+}
+
+.sticker img {
+    width: 800px;
+    height: 800px;
+}
+
+.sticker-input {
+    margin-top: 10px;
+}
